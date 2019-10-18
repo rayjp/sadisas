@@ -7,3 +7,302 @@
 	object-fit: cover;
 	filter: grayscale(60%);	
 }
+
+.carousel-indicators li
+{
+	background-color: #008239;
+	width: 10px;
+	height: 10px;
+	border: solid 1px gray;
+	
+	
+}
+
+
+ .textsli1
+{
+
+	
+	padding-bottom: 30%;
+
+}
+
+
+
+@media screen and (max-width: 2560px)
+{
+
+.textsli1
+
+ {
+	 text-align: left;
+	 padding-bottom: 15%;
+	 	
+}
+
+	
+}
+
+@media screen and (max-width: 1920px)
+{
+
+
+	.carousel-indicators li
+	{
+		
+		margin-top: -80px;
+		
+	}
+
+
+		
+	 .textsli1
+	{
+
+		
+		padding-bottom: 18%;
+
+	}
+
+
+
+	.textsli1
+		 {
+		 	text-align: left;
+		 	
+		 }
+
+
+
+
+			
+
+}
+
+
+@media screen and (max-width: 1600px)
+{
+
+	.carousel-indicators li
+	{
+		
+		margin-top: -80px;
+		
+	}
+	
+
+	
+
+	.textsli1
+	 {
+	 	text-align: left;
+	 	padding-bottom: 5%;
+	 	
+	 }
+
+
+
+	
+
+			
+
+}
+
+@media screen and (max-width: 1440px)
+{
+
+	.carousel-indicators li
+	{
+			
+		margin-top: -80px;
+		
+	}
+	
+	.textsli1
+	 {
+	 	text-align: left;
+	 	padding-bottom: 5%;
+	 	
+	 }
+
+
+	
+
+
+	
+
+			
+
+}
+
+@media screen and (max-width: 1280px)
+{
+
+	
+
+	.carousel-indicators li
+	{
+			
+		margin-top: -80px;
+		
+	}
+	
+
+	.textsli1
+	 {
+	 	text-align: left;
+	 	padding-bottom: 10%;
+	 }
+
+	
+
+
+	
+
+			
+
+}
+
+@media screen and (max-width: 1024px)
+{
+
+	.carousel-indicators li
+	{
+		background-color: #ffc107;		
+		margin-top: -80px;
+		
+	}
+
+
+	
+
+	 .textsli1
+	 {
+	 	padding-bottom: 0;
+	 }
+
+
+
+}
+
+
+@media screen and (max-width: 768px) 
+{
+
+	
+
+	.carousel-indicators li
+	{
+		background-color: #ffc107;		
+		margin-top: -80px;
+		
+	}
+
+
+
+	.textsli1 .flayer1
+	{
+		font-size: 1rem;
+	}
+
+	.textsli1 h4, h5
+	{
+		font-size: .8rem;
+	}
+
+	
+
+	
+
+}
+
+
+@media screen and (max-width: 480px)
+{
+
+	.carousel-indicators li
+	{
+		background-color: #ffc107;		
+		margin-top: initial;
+		
+	}
+
+		
+
+	
+
+	.slide
+	{
+		margin-top: 4.7rem;
+
+	}
+
+	 .textsli1
+	 {
+	 	padding-bottom: 5%;
+	 }
+
+
+
+	.textsli1 .flayer1
+	{
+		font-size: .8rem;
+	}
+
+	 .textsli1 .btn-select
+	 {
+	 	font-size: .7rem;
+	 }
+
+	.textsli1 h4, h5
+	{
+		display: none;
+	}
+
+
+}
+	
+
+
+@media screen and (max-width: 360px)
+{
+
+	
+
+	.carousel-indicators li
+	{
+
+		background-color: #ffc107;		
+		margin-top: initial;
+		
+	}
+
+		
+
+	.slide
+	{
+		margin-top: 4.7rem;
+
+	}
+
+
+	 .textsli1
+	 {
+	 	padding-bottom: 1%;
+	 }
+
+
+
+	.textsli1 .flayer1
+	{
+		font-size: .6rem;
+	}
+
+
+
+
+	 
+	
+
+}
+
