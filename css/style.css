@@ -8,7 +8,10 @@
 	filter: grayscale(60%);	
 }
 
+
+
 .carousel-indicators li
+
 {
 	background-color: #008239;
 	width: 10px;
