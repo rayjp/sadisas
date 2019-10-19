@@ -1,14 +1,12 @@
 
-
-.carousel-inner img
+.main .carousel-inner img
 {
 	max-height: 70vh;
 	object-fit: cover;
 	
 }
 
-
-.carousel-indicators li
+.main .carousel-indicators li
 
 {
 	background-color: #008239;
@@ -77,6 +75,8 @@ color: black;
 
 
 
+
+/***************Aplicación de Media queris****************/
 
 @media screen and (max-width: 2560px)
 {
@@ -269,8 +269,7 @@ color: black;
 	}
 
 
-}
-	
+}	
 
 
 @media screen and (max-width: 360px)
@@ -309,4 +308,6 @@ color: black;
 	
 
 }
+
+/***************Aplicación de Media queris end****************/
 
