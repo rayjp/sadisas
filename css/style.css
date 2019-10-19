@@ -1,13 +1,11 @@
 
 
-
 .carousel-inner img
 {
 	max-height: 70vh;
 	object-fit: cover;
 	
 }
-
 
 
 .carousel-indicators li
@@ -32,10 +30,14 @@
 	background: url(../images/news/letter.png);
 }
 
+
+
 .payment
 {
 	background: #00833a;
 }
+
+
 
 .reserved
 {
@@ -52,6 +54,27 @@
 	padding-bottom: 30%;
 
 }
+
+.textsli1 .title-sup
+
+{
+
+	font-size: 52px; 
+	color: green; 
+	text-shadow: .3px .3px .3px #000;
+
+
+}
+
+.textsli1 .title-inf
+
+{
+
+font-size: 40px; 
+color: black;
+
+}
+
 
 
 
@@ -87,21 +110,10 @@
 
 		
 		padding-bottom: 18%;
+		text-align: left;
 
 	}
-
-
-
-	.textsli1
-		 {
-		 	text-align: left;
-		 	
-		 }
-
-
-
-
-			
+		
 
 }
 
@@ -125,11 +137,6 @@
 	 	padding-bottom: 5%;
 	 	
 	 }
-
-
-
-	
-
 			
 
 }
@@ -149,15 +156,7 @@
 	 	text-align: left;
 	 	padding-bottom: 5%;
 	 	
-	 }
-
-
-	
-
-
-	
-
-			
+	 }			
 
 }
 
@@ -178,14 +177,7 @@
 	 {
 	 	text-align: left;
 	 	padding-bottom: 10%;
-	 }
-
-	
-
-
-	
-
-			
+	 }			
 
 }
 
@@ -197,17 +189,12 @@
 		background-color: #ffc107;		
 		margin-top: -80px;
 		
-	}
-
-
-	
+	}	
 
 	 .textsli1
 	 {
 	 	padding-bottom: 0;
 	 }
-
-
 
 }
 
@@ -234,11 +221,7 @@
 	.textsli1 h4, h5
 	{
 		font-size: .8rem;
-	}
-
-	
-
-	
+	}	
 
 }
 
@@ -322,12 +305,7 @@
 	.textsli1 .flayer1
 	{
 		font-size: .6rem;
-	}
-
-
-
-
-	 
+	}	 
 	
 
 }
