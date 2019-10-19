@@ -26,9 +26,20 @@
 	background: #004292;
 }
 
+
+.news
+{
+	background: url(../images/news/letter.png);
+}
+
 .payment
 {
 	background: #00833a;
+}
+
+.reserved
+{
+	background: black;
 }
 
 
