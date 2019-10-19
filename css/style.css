@@ -1,5 +1,6 @@
 body
 {
+
 	font-family: 'Lato', sans-serif;
 }
 
@@ -64,7 +65,7 @@ body
 
 	font-size: 52px; 
 	color: green; 
-	text-shadow: .3px .3px .3px #000;
+	text-shadow: .5px .5px .5px #000;
 
 
 }
@@ -73,7 +74,7 @@ body
 
 {
 
-font-size: 40px; 
+font-size: 35px; 
 color: black;
 
 }
@@ -81,7 +82,7 @@ color: black;
 
 
 
-/***************Aplicación de Media queris****************/
+/***************Aplicación de Media querys****************/
 
 @media screen and (max-width: 2560px)
 {
@@ -314,5 +315,5 @@ color: black;
 
 }
 
-/***************Aplicación de Media queris end****************/
+/***************Aplicación de Media querys end****************/
 
