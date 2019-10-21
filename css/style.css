@@ -16,9 +16,10 @@ body
 
 {
 	background-color: #008239;
-	width: 10px;
-	height: 10px;
-	border: solid 1px gray;
+	width: 13px;
+	height: 13px;
+	border: solid 1px white;
+	border-radius: 10px;
 	
 	
 }
