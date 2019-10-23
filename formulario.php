@@ -45,8 +45,8 @@ if (empty($_POST["mensaje"])){
 }
 
 //CUERPO DEL MENSAJE
-$cuerpo = "Nombre: ";
-$cuerpo = $nombre;
+$cuerpo .= "Nombre: ";
+$cuerpo .= $nombre;
 $cuerpo .= "\n";
  
 $cuerpo .= "Email: ";
