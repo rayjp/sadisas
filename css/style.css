@@ -1,3 +1,5 @@
+
+
 body
 {
 
@@ -27,6 +29,24 @@ body
 .clients
 {
 	background: #004292;
+}
+
+.marcoFoto {
+    overflow: hidden; /*esta propiedad evita que la imagen ocupe mas espacio que su contenedor*/
+   
+    border: 5px solid #FFF;
+    box-sizing:border-box;
+    float:left;
+}
+ 
+.marcoFoto img {
+    transition: all .8s ease;
+    width:100%;
+}
+ 
+.marcoFoto img:hover {
+    transform:scale(1.5) rotate(3deg); /*cuando nos posicionamos sobre la imagen con esta propiedad aumentamos su escala y ademas la giramos*/
+    opacity:0.6;
 }
 
 
@@ -79,6 +99,22 @@ font-size: 35px;
 color: black;
 
 }
+
+.page-section {
+ 
+}
+.move{
+  background-color:#000
+}
+.page-section.bg-dark * {
+  color: #fff;
+}
+.transparent{
+  background-color:green;
+}
+.nav_transparent{background-color:#ffffffc2;}
+.nav_white{background-color:grey;}
+.nav_blue{background-color:black;}
 
 
 
