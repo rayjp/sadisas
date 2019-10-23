@@ -42,7 +42,7 @@
 
           <ul class="navbar-nav ml-auto">
             <a class="nav-link" href="index.html"><strong>Inicio</strong></a>
-            <a class="nav-link" href="#"><strong>Acerca de</strong></a>
+            <a class="nav-link" href="about.html"><strong>Acerca de</strong></a>
             <a class="nav-link" href="#section1"><strong>Clientes</strong></a>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -133,93 +133,69 @@
 
     
 
-    <!--------------Acerca de-------------------------->
+    <!--------------formulario de contacto-------------------------->
 
-    <section class="about py-5">
+    <div class="container">
 
+      <div class="row justify-content-center py-5">
 
-      <div class=" container">
+        <div class="col-md-7">
 
+          <h1 >Formulario</h1>
+          <hr>
+          <p>Te invitamos a contactarnos, te responderemos a la brevedad posible</p>
+          <p class="text-danger">*Todos los campos son obligatorios*</p>
 
-        <div class="row">
+          <form id="formulario">
 
+            <div class="row form-group">
 
-          <div class="col-sm-12">
+              <label for="nombre" class="col-form-label col-md-4">Nombre:</label>
 
+              <div class="col-md-8">
+                <input type="text" name="nombre" value="" id="nombre" class="form-control" required>
+              </div>
 
-             <h2 class="text-success text-center"><strong>27 Años de experiencia a su servicio</strong></h2> 
-             <hr> 
-            
+              
+            </div>
 
-          </div>
-          
+            <div class="row form-group">
 
-          <div class="col-md-6 py-5">
+              <label for="email" class="col-form-label col-md-4">Email:</label>
 
-            
-            <img class="w-100" src="images/about/SADI-65.jpg" style="border-radius: 20px">
-            
+              <div class="col-md-8">
+                <input type="email" name="email" value="" id="email" class="form-control" required>
+              </div>
 
-          </div>
+              
+            </div>
 
+            <div class="row form-group">
 
-          <div class="col-md-6 py-5">         
+              <label for="mensaje" class="col-form-label col-md-4">Mensaje:</label>
 
+              <div class="col-md-8">
 
-            <p class="text-muted" style="font-size: 18px">Contamos con variedad de aeronaves, personal altamente capacitado, tecnología de punta y un sistema satelital que permite el rastreo en tiempo real de los vuelos en todo el territorio nacional. </p>
+                <textarea rows="3" class="form-control" id="mensaje" name="mensaje" required></textarea>
+                
+              </div>
 
-            <p class="text-muted" style="font-size: 18px">Nuestra experiencia incluye: vuelos charter, visitas turísticas, ambulancia aérea medicalizada, vuelos de investigación, apoyo contra incendios forestales, cinematografía, emisión de radio y televisión, fotografía aérea, audiogrametría, transporte de carga, labores de construcción, servicio de búsqueda y rescate.</p>
+              
+            </div>
 
-                        
+            <button type="submit" class="btn btn-info">Enviar ahora</button>
 
-          </div>
+          </form>
 
         </div>
-        
 
       </div>
+    </div>
 
-      <hr>
-
-      <div class="container ">
-
-        <div class="row">
-
-          <div class="col-sm-12">
-            <h2 class="text-center mb-2" style="color: #004291"><strong>Contamos con</strong></h2> 
-          </div>
-
-           <div class="col-sm-12 col-md-6 mt-5">
-            <img class="w-100" src="images/about/about2.jpg">
-          </div>
+    
 
 
-          <div class="col-sm-12 col-md-6 pt-5">
-
-
-             
-            
-
-             <ul class="list-unstyled">
-               <li class="h5">Escritura Pública #5262 | Notaria 25 de Bogotá el 3 de Noviembre de 1992</li>
-               <li class="h5 pt-2">Resolución 7711 de 14 de septiembre de 1993</li>
-               <li class="h5 pt-2">Certificado Aerocivil CDO-AA-056, trabajos aereos especiales.</li>
-               <li class="h5 pt-2">Certificado Aerocivil CDO-067, operaciones de vuelo, Mantenimiento, centro de entrenamiento.</li>
-               <li class="h5 pt-2">Certificación Aerocivil CDO-AA-063 Ambulancia Aérea</li>
-               
-             </ul>
-            
-
-          </div>
-        </div>
-        
-      </div>
-
-
-    </section>
-
-
-    <!--------------Acerca de-------------------------->
+    <!--------------Formulario de contacto end-------------------------->
 
 
 
@@ -312,7 +288,10 @@
 
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>      
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript" src="js/formulario.js"></script>      
       
 
 
