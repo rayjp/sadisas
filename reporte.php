@@ -3,7 +3,7 @@
 
 
 $nombre = $_POST["nombre"];
-$teleefono = $_POST["telefono"];
+$telefono = $_POST["telefono"];
 $email = $_POST["correo"];
 $mensaje = $_POST["mensaje"];
 
@@ -22,6 +22,20 @@ if (empty($_POST["nombre"])){
         $error .= 'Nombre está vacio</br>';
     }
 }
+
+//VALIDANDO TELEFONO
+if (empty($_POST["telefono"])){
+    $error .= 'Ingresa un Telefono verdadero</br>';
+}else{
+    $telefono = $_POST["telefono"];
+    if(!filter_var($telefono,FILTER_VALIDATE_INT)){
+        $error .= 'Ingresa un Telefono verdadero</br>';
+    }else{
+        $telefono = filter_var($telefono,FILTER_VALIDATE_INT);
+    }
+}
+
+
 //VALIDANDO E-MAIL
 if (empty($_POST["correo"])){
     $error .= 'Ingresa un E-mail</br>';
@@ -33,17 +47,7 @@ if (empty($_POST["correo"])){
         $email = filter_var($email,FILTER_SANITIZE_EMAIL);
     }
 }
-//VALIDANDO E-MAIL
-if (empty($_POST["telefono"])){
-    $error .= 'Ingresa un telefono</br>';
-}else{
-    $email = $_POST["telefono"];
-    if(!filter_var($email,FILTER_VALIDATE_INT)){
-        $error .= 'Ingresa un Telefono verdadero</br>';
-    }else{
-        $email = filter_var($email,FILTER_VALIDATE_INT);
-    }
-}
+
 //VALIDANDO MENSAJE
 if (empty($_POST["mensaje"])){
     $error .= 'Ingresa un mensaje </br>';
@@ -77,7 +81,7 @@ $cuerpo .= $mensaje;
 
 //DIRECCIÓN
 $enviarA = 'rainier86@gmail.com'; //REEMPLAZAR CON TU CORREO ELECTRÓNICO
-$asunto = 'Nuevo mensaje de mi sitio web';
+$asunto = 'Nuevo Reporte PQR desde la web';
 
 //ENVIAR CORREO
 if($error == ''){
