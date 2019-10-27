@@ -157,14 +157,14 @@
 
     <div class="container-fluid" style="background: #8080804a">
 
-      <div class="row justify-content-center py-5">
+      <div class="row justify-content-start pt-3 pb-5">
 
-        <div class="col-md-7">
+        <div class="col-md-9">
 
          
           <hr>
-          <p>Te invitamos a contactarnos, te responderemos a la brevedad posible</p>
-          <p class="text-danger">*Todos los campos son obligatorios*</p>
+          <p class="text-right">Te invitamos a contactarnos, te responderemos a la brevedad posible</p>
+          <p class="text-danger text-right">*Todos los campos son obligatorios*</p>
 
           <div class="alert alert-success d-none" id="mensajeExito">Mensaje enviado con éxito</div>
           <div class="alert alert-danger d-none" id="mensajeError"></div>
@@ -173,7 +173,7 @@
 
             <div class="row form-group">
 
-              <label for="nombre" class="col-form-label col-md-4">Nombre:</label>
+              <label for="nombre" class="col-form-label col-md-4 text-right">Nombre:</label>
 
               <div class="col-md-8">
                 <input type="text" name="nombre" value="" id="nombre" class="form-control" required>
@@ -184,7 +184,7 @@
 
             <div class="row form-group">
 
-              <label for="email" class="col-form-label col-md-4">Email:</label>
+              <label for="email" class="col-form-label col-md-4 text-right">Email:</label>
 
               <div class="col-md-8">
                 <input type="email" name="email" value="" id="email" class="form-control" required>
@@ -195,7 +195,7 @@
 
             <div class="row form-group">
 
-              <label for="mensaje" class="col-form-label col-md-4">Mensaje:</label>
+              <label for="mensaje" class="col-form-label col-md-4 text-right">Mensaje:</label>
 
               <div class="col-md-8">
 
@@ -206,7 +206,11 @@
               
             </div>
 
-            <button type="submit" class="btn btn-success">Enviar ahora</button>
+            <div class="text-right mt-4">
+               <button type="submit" class="btn btn-success">Enviar ahora</button>
+            </div>
+
+           
 
           </form>
 
