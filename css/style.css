@@ -143,6 +143,13 @@ color: black;
 @media screen and (max-width: 1920px)
 {
 
+	.main .carousel-caption
+	{
+		bottom: -5%;
+	}
+
+
+
 
 	.carousel-indicators li
 	{
@@ -169,6 +176,9 @@ color: black;
 @media screen and (max-width: 1600px)
 {
 
+	
+	
+
 	.carousel-indicators li
 	{
 		
@@ -191,6 +201,11 @@ color: black;
 
 @media screen and (max-width: 1440px)
 {
+
+	.main .carousel-caption
+	{
+		bottom: 30%;
+	}
 
 	.carousel-indicators li
 	{
