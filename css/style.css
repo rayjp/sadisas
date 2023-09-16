@@ -26,6 +26,11 @@ body
 	
 }
 
+.main .carousel-caption
+{
+	bottom: 33%;
+}
+
 .clients
 {
 	background: #004292;
